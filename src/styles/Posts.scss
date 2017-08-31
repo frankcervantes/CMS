@@ -1,0 +1,20 @@
+.posts{
+	.post{
+		width:400px;
+		margin:10px auto;
+		text-align:left;
+		padding: 20px 50px 20px 50px;
+		&__title{
+			padding:0px;
+			margin:0 0 15px 0;
+			a{
+				cursor:pointer;
+				color:#222;
+				text-decoration:none;	
+			}
+		}
+		&__meta{
+			font-weight:lighter;
+		}
+	}
+}

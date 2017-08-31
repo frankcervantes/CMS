@@ -1,0 +1,25 @@
+.pagination{
+	background-color:#222;
+	padding: 10px 0px;
+	&__elem{
+		display:inline-block;
+		margin:0 5px;
+		padding:5px;
+		color:white;
+		&--active{
+			border:solid 2px white;
+			border-radius:100px;
+		}
+	}
+	&__arrow{
+		color:white;
+		font-size:20px;
+		&__left{
+			margin-right:15px;
+		}
+		&__right{
+			margin-left:15px;
+		}
+	}
+
+}
